@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col h-screen justify-between">
+    <NavBar />
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link :to="{ name: 'BasicRead' }">Basic Read</router-link>
@@ -11,6 +12,17 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import NavBar from '@/components/NavBar.vue'
+export default defineComponent({
+  setup() {
+    return {}
+  },
+  components: { NavBar },
+})
+</script>
 
 <style>
 #app {
