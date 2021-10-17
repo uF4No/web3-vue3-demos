@@ -4,8 +4,8 @@
 
 - **The Complete Guide to Full Stack Ethereum Development**
 
-Dev.to: https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13
-YT: https://www.youtube.com/watch?v=a0osIaAOFSE&t=25s
+  - Dev.to: https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13
+  - YT: https://www.youtube.com/watch?v=a0osIaAOFSE&t=25s
 
 - Crypto Dev Hub: https://cryptodevhub.io/wiki/blockchain-development-tutorial
 
