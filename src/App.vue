@@ -3,7 +3,7 @@
     <NavBar />
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link :to="{ name: 'BasicRead' }">Basic Read</router-link>
+      <router-link :to="{ name: 'Greeter' }">Greeter</router-link>
     </div>
     <router-view class="container max-w-8xl mx-auto  mb-auto" />
     <div class=" py-8 border-t">

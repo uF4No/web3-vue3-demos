@@ -180,6 +180,7 @@ export default defineComponent({
 
     const connectWallet = async () => {
       try {
+        //@ts-ignore
         const data = await window.ethereum.request({
           method: 'eth_requestAccounts',
         })

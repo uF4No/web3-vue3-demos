@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "compile": "npx hardhat compile",
+    "deploy-local": "npx hardhat run solidity/scripts/deploy.js --network localhost",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.4",
     "core-js": "^3.6.5",
     "pinia": "^2.0.0-rc.13",
     "vue": "^3.0.0",
