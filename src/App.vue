@@ -1,9 +1,15 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="flex flex-col h-screen justify-between">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link :to="{ name: 'BasicRead' }">Basic Read</router-link>
+    </div>
+    <router-view class="container max-w-8xl mx-auto  mb-auto" />
+    <div class=" py-8 border-t">
+      <router-link to="/">Home</router-link> |
+      <router-link :to="{ name: 'About' }">About</router-link>
+    </div>
   </div>
-  <router-view/>
 </template>
 
 <style>
