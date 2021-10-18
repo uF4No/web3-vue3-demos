@@ -28,7 +28,7 @@
       Get message
     </button>
 
-    <p>
+    <p class="mb-4">
       The message is
       <span class="text-blue-500 font-medium">{{ message }}</span>
     </p>
@@ -92,7 +92,7 @@ import Greeter from '@/artifacts/solidity/contracts/Greeter.sol/Greeter.json'
 export default defineComponent({
   setup() {
     const contractAddress = process.env.VUE_APP_ADDRESS_GREETER || ''
-    const message = ref('Empty message')
+    const message = ref('')
     const newMessage = ref('')
 
     const getGreeting = async () => {
